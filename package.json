@@ -1,7 +1,6 @@
 {
-  "name": "api",
+  "name": "backend",
   "private": true,
-  "version": "0.1.0",
   "description": "A Strapi application",
   "scripts": {
     "develop": "strapi develop",
@@ -19,6 +18,7 @@
     "@swc/core-win32-x64-msvc": "^1.7.26",
     "better-sqlite3": "8.6.0",
     "nodenext": "^0.0.2",
+    "nvm": "^0.0.4",
     "pg": "^8.12.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
@@ -37,6 +37,7 @@
     "npm": ">=6.0.0"
   },
   "os": [
+    "linux",
     "win32"
   ],
   "cpu": [
